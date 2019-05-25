@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="eply.com.tests.FormsFilterTest">
+        <methods>
+          <include name="setup"/>
+          <include name="setWaitForPage"/>
+          <include name="failedTest"/>
+          <include name="tearDown"/>
+          <include name="formsPeriod"/>
+        </methods>
+      </class> <!-- eply.com.tests.FormsFilterTest -->
+      <class name="eply.com.tests.AccountTest">
+        <methods>
+          <include name="setup"/>
+          <include name="accountDetails"/>
+          <include name="setWaitForPage"/>
+          <include name="failedTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- eply.com.tests.AccountTest -->
+      <class name="eply.com.tests.ForgotPasswordTest">
+        <methods>
+          <include name="setup"/>
+          <include name="forgotPassword"/>
+          <include name="setWaitForPage"/>
+          <include name="failedTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- eply.com.tests.ForgotPasswordTest -->
+      <class name="eply.com.tests.SearchTest">
+        <methods>
+          <include name="setup"/>
+          <include name="search"/>
+          <include name="setWaitForPage"/>
+          <include name="failedTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- eply.com.tests.SearchTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
