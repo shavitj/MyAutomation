@@ -7,7 +7,6 @@
       <class name="eply.com.tests.FormsFilterTest"/>
       <class name="eply.com.tests.ForgotPasswordTest"/>
       <class name="eply.com.tests.SearchTest"/>
-      shavit
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
