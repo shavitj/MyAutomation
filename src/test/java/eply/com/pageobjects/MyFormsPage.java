@@ -8,6 +8,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 
+import io.qameta.allure.Step;
+
 public class MyFormsPage extends BasePage {
 
 	@FindBy(css="#ePlyHeader_SearchLink")
@@ -28,7 +30,8 @@ public class MyFormsPage extends BasePage {
 	public void openSearchAll() {
 		click(searchAll);
 	}
-
+	
+    @Step("click on account link {0}")
 	public void account() {
 		click(account);
 	}

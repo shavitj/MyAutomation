@@ -1,11 +1,13 @@
-eply\com\tests\ForgotPasswordTest.class
 eply\com\tests\BaseTest.class
+eply\com\tests\AccountTest.class
+eply\com\tests\SearchTest.class
+eply\com\pageobjects\AccountPage.class
+utilities\AllureAttachment.class
+eply\com\tests\ForgotPasswordTest.class
 eply\com\pageobjects\ForgotPasswordPage.class
 eply\com\pageobjects\SearchPage.class
-eply\com\tests\AccountTest.class
 eply\com\tests\FormsFilterTest.class
-eply\com\tests\SearchTest.class
 eply\com\pageobjects\LoginPage.class
 eply\com\pageobjects\MyFormsPage.class
-eply\com\pageobjects\AccountPage.class
 eply\com\pageobjects\BasePage.class
+utilities\ListenerClass.class

@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test name="Test">
-    <classes>
-      <class name="eply.com.tests.AccountTest"/>
-      <class name="eply.com.tests.FormsFilterTest"/>
-      <class name="eply.com.tests.ForgotPasswordTest"/>
-      <class name="eply.com.tests.SearchTest"/>
-      shavit
-    </classes>
-  </test> <!-- Test -->
+	<listeners>
+		<listener class-name="utilities.ListenerClass"></listener>
+	</listeners>
+	<test name="Test">
+		<classes>
+			<class name="eply.com.tests.AccountTest" />
+			<class name="eply.com.tests.FormsFilterTest" />
+			<class name="eply.com.tests.ForgotPasswordTest" />
+			<class name="eply.com.tests.SearchTest" />
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->

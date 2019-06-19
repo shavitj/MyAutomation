@@ -5,7 +5,17 @@ import org.testng.annotations.Test;
 import eply.com.pageobjects.AccountPage;
 import eply.com.pageobjects.LoginPage;
 import eply.com.pageobjects.MyFormsPage;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Issue;
+import io.qameta.allure.Link;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
+import io.qameta.allure.TmsLink;
 
+@Epic("Shopping Cart")
+@Feature("Account details")
 public class AccountTest extends BaseTest {
 
 	@Test(description="Login") 
@@ -20,6 +30,11 @@ public class AccountTest extends BaseTest {
 		Assert.assertEquals(actual, expected);
 	}
 
+	@Link("https://demo.qameta.io/allure/#")
+	@TmsLink("https://www.gurock.com/testrail")
+	@Severity(SeverityLevel.NORMAL)
+	@Story("As a User when I add details - text 'saved.' should appears")
+	@Issue("2")
 	@Test(description="add account details and validate saved")
 	public void accountDetails() {
 		MyFormsPage myForms = new MyFormsPage(driver);

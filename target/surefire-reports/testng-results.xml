@@ -2,55 +2,56 @@
 <testng-results skipped="0" failed="4" ignored="0" total="7" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="94998" started-at="2019-05-23T13:23:13Z" finished-at="2019-05-23T13:24:48Z">
+  <suite name="Suite" duration-ms="96596" started-at="2019-06-18T21:10:51Z" finished-at="2019-06-18T21:12:27Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="94998" started-at="2019-05-23T13:23:13Z" finished-at="2019-05-23T13:24:48Z">
+    <test name="Test" duration-ms="96596" started-at="2019-06-18T21:10:51Z" finished-at="2019-06-18T21:12:27Z">
       <class name="eply.com.tests.AccountTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:eply.com.tests.AccountTest@3a03464]" name="setup" is-config="true" duration-ms="4072" started-at="2019-05-23T13:23:13Z" finished-at="2019-05-23T13:23:17Z">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:eply.com.tests.AccountTest@58bf8650]" name="setup" is-config="true" duration-ms="4582" started-at="2019-06-18T21:10:51Z" finished-at="2019-06-18T21:10:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5a47730c]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setWaitForPage()[pri:0, instance:eply.com.tests.AccountTest@3a03464]" name="setWaitForPage" is-config="true" duration-ms="14" started-at="2019-05-23T13:23:17Z" finished-at="2019-05-23T13:23:17Z">
+        <test-method status="PASS" signature="setWaitForPage()[pri:0, instance:eply.com.tests.AccountTest@58bf8650]" name="setWaitForPage" is-config="true" duration-ms="3" started-at="2019-06-18T21:10:55Z" finished-at="2019-06-18T21:10:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setWaitForPage -->
-        <test-method status="FAIL" signature="accountDetails()[pri:0, instance:eply.com.tests.AccountTest@3a03464]" name="accountDetails" duration-ms="10107" started-at="2019-05-23T13:23:17Z" description="add account details and validate saved" finished-at="2019-05-23T13:23:27Z">
+        <test-method status="FAIL" signature="accountDetails()[pri:0, instance:eply.com.tests.AccountTest@58bf8650]" name="accountDetails" duration-ms="10168" started-at="2019-06-18T21:10:56Z" description="add account details and validate saved" finished-at="2019-06-18T21:11:06Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#ePlyHeader_accountLink"}
-  (Session info: chrome=74.0.3729.157)
-  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
+  (Session info: chrome=75.0.3770.90)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-QMHL70U', ip: '10.0.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+System info: host: 'DESKTOP-QMHL70U', ip: '10.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\USER\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58364}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}
-Session ID: 7380f483447d7e1332426ad23f5459a4
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.90, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58458}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 25823879b3eb3e75377294f8f845b0c8
 *** Element info: {Using=css selector, value=#ePlyHeader_accountLink}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#ePlyHeader_accountLink"}
-  (Session info: chrome=74.0.3729.157)
-  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
+  (Session info: chrome=75.0.3770.90)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-QMHL70U', ip: '10.0.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+System info: host: 'DESKTOP-QMHL70U', ip: '10.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\USER\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58364}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}
-Session ID: 7380f483447d7e1332426ad23f5459a4
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.90, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58458}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 25823879b3eb3e75377294f8f845b0c8
 *** Element info: {Using=css selector, value=#ePlyHeader_accountLink}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
@@ -60,11 +61,15 @@ at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy9.getAttribute(Unknown Source)
+at com.sun.proxy.$Proxy23.getAttribute(Unknown Source)
 at eply.com.pageobjects.BasePage.highlightElement(BasePage.java:133)
 at eply.com.pageobjects.BasePage.click(BasePage.java:26)
-at eply.com.pageobjects.MyFormsPage.account(MyFormsPage.java:33)
-at eply.com.tests.AccountTest.accountDetails(AccountTest.java:26)
+at eply.com.pageobjects.MyFormsPage.account_aroundBody0(MyFormsPage.java:36)
+at eply.com.pageobjects.MyFormsPage$AjcClosure1.run(MyFormsPage.java:1)
+at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:50)
+at eply.com.pageobjects.MyFormsPage.account(MyFormsPage.java:36)
+at eply.com.tests.AccountTest.accountDetails(AccountTest.java:41)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -100,105 +105,106 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accountDetails -->
-        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:eply.com.tests.AccountTest@3a03464]" name="failedTest" is-config="true" duration-ms="338" started-at="2019-05-23T13:23:27Z" finished-at="2019-05-23T13:23:27Z">
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:eply.com.tests.AccountTest@58bf8650]" name="failedTest" is-config="true" duration-ms="356" started-at="2019-06-18T21:11:06Z" finished-at="2019-06-18T21:11:07Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=accountDetails status=FAILURE method=AccountTest.accountDetails()[pri:0, instance:eply.com.tests.AccountTest@3a03464] output={null}]]]>
+                <![CDATA[[TestResult name=accountDetails status=FAILURE method=AccountTest.accountDetails()[pri:0, instance:eply.com.tests.AccountTest@58bf8650] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failedTest -->
-        <test-method status="PASS" signature="setWaitForPage()[pri:0, instance:eply.com.tests.AccountTest@3a03464]" name="setWaitForPage" is-config="true" duration-ms="3" started-at="2019-05-23T13:23:27Z" finished-at="2019-05-23T13:23:27Z">
+        <test-method status="PASS" signature="setWaitForPage()[pri:0, instance:eply.com.tests.AccountTest@58bf8650]" name="setWaitForPage" is-config="true" duration-ms="4" started-at="2019-06-18T21:11:07Z" finished-at="2019-06-18T21:11:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setWaitForPage -->
-        <test-method status="PASS" signature="login()[pri:0, instance:eply.com.tests.AccountTest@3a03464]" name="login" duration-ms="9955" started-at="2019-05-23T13:23:27Z" description="Login" finished-at="2019-05-23T13:23:37Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:eply.com.tests.AccountTest@58bf8650]" name="login" duration-ms="9415" started-at="2019-06-18T21:11:07Z" description="Login" finished-at="2019-06-18T21:11:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:eply.com.tests.AccountTest@3a03464]" name="tearDown" is-config="true" duration-ms="589" started-at="2019-05-23T13:23:37Z" finished-at="2019-05-23T13:23:38Z">
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:eply.com.tests.AccountTest@58bf8650]" name="failedTest" is-config="true" duration-ms="1" started-at="2019-06-18T21:11:16Z" finished-at="2019-06-18T21:11:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=AccountTest.login()[pri:0, instance:eply.com.tests.AccountTest@58bf8650] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:eply.com.tests.AccountTest@58bf8650]" name="tearDown" is-config="true" duration-ms="583" started-at="2019-06-18T21:11:16Z" finished-at="2019-06-18T21:11:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:eply.com.tests.AccountTest@3a03464]" name="failedTest" is-config="true" duration-ms="0" started-at="2019-05-23T13:23:37Z" finished-at="2019-05-23T13:23:37Z">
+      </class> <!-- eply.com.tests.AccountTest -->
+      <class name="eply.com.tests.SearchTest">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:eply.com.tests.SearchTest@4ba534b0]" name="setup" is-config="true" duration-ms="3208" started-at="2019-06-18T21:11:58Z" finished-at="2019-06-18T21:12:01Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=login status=SUCCESS method=AccountTest.login()[pri:0, instance:eply.com.tests.AccountTest@3a03464] output={null}]]]>
+                <![CDATA[org.testng.TestRunner@5a47730c]]>
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- failedTest -->
-      </class> <!-- eply.com.tests.AccountTest -->
-      <class name="eply.com.tests.SearchTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:eply.com.tests.SearchTest@6537cf78]" name="setup" is-config="true" duration-ms="3316" started-at="2019-05-23T13:24:19Z" finished-at="2019-05-23T13:24:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setWaitForPage()[pri:0, instance:eply.com.tests.SearchTest@6537cf78]" name="setWaitForPage" is-config="true" duration-ms="7" started-at="2019-05-23T13:24:23Z" finished-at="2019-05-23T13:24:23Z">
+        <test-method status="PASS" signature="setWaitForPage()[pri:0, instance:eply.com.tests.SearchTest@4ba534b0]" name="setWaitForPage" is-config="true" duration-ms="6" started-at="2019-06-18T21:12:01Z" finished-at="2019-06-18T21:12:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setWaitForPage -->
-        <test-method status="PASS" signature="login()[pri:0, instance:eply.com.tests.SearchTest@6537cf78]" name="login" duration-ms="9226" started-at="2019-05-23T13:24:23Z" description="Login" finished-at="2019-05-23T13:24:32Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:eply.com.tests.SearchTest@4ba534b0]" name="login" duration-ms="8854" started-at="2019-06-18T21:12:01Z" description="Login" finished-at="2019-06-18T21:12:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="setWaitForPage()[pri:0, instance:eply.com.tests.SearchTest@6537cf78]" name="setWaitForPage" is-config="true" duration-ms="3" started-at="2019-05-23T13:24:32Z" finished-at="2019-05-23T13:24:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setWaitForPage -->
-        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:eply.com.tests.SearchTest@6537cf78]" name="failedTest" is-config="true" duration-ms="0" started-at="2019-05-23T13:24:32Z" finished-at="2019-05-23T13:24:32Z">
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:eply.com.tests.SearchTest@4ba534b0]" name="failedTest" is-config="true" duration-ms="1" started-at="2019-06-18T21:12:10Z" finished-at="2019-06-18T21:12:10Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=login status=SUCCESS method=SearchTest.login()[pri:0, instance:eply.com.tests.SearchTest@6537cf78] output={null}]]]>
+                <![CDATA[[TestResult name=login status=SUCCESS method=SearchTest.login()[pri:0, instance:eply.com.tests.SearchTest@4ba534b0] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failedTest -->
-        <test-method status="FAIL" signature="search()[pri:0, instance:eply.com.tests.SearchTest@6537cf78]" name="search" duration-ms="14760" started-at="2019-05-23T13:24:32Z" description="search event and validate search was made" finished-at="2019-05-23T13:24:47Z">
+        <test-method status="PASS" signature="setWaitForPage()[pri:0, instance:eply.com.tests.SearchTest@4ba534b0]" name="setWaitForPage" is-config="true" duration-ms="2" started-at="2019-06-18T21:12:10Z" finished-at="2019-06-18T21:12:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setWaitForPage -->
+        <test-method status="FAIL" signature="search()[pri:0, instance:eply.com.tests.SearchTest@4ba534b0]" name="search" duration-ms="16317" started-at="2019-06-18T21:12:10Z" description="search event and validate search was made" finished-at="2019-06-18T21:12:26Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#MessageLabel"}
-  (Session info: chrome=74.0.3729.157)
-  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
+  (Session info: chrome=75.0.3770.90)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-QMHL70U', ip: '10.0.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+System info: host: 'DESKTOP-QMHL70U', ip: '10.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\USER\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58518}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}
-Session ID: 63ea5d59d72acfc4dc9889e6c9265de0
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.90, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58565}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 71bf474609e702cc47a8e2bbee18ef4f
 *** Element info: {Using=css selector, value=#MessageLabel}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#MessageLabel"}
-  (Session info: chrome=74.0.3729.157)
-  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
+  (Session info: chrome=75.0.3770.90)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-QMHL70U', ip: '10.0.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+System info: host: 'DESKTOP-QMHL70U', ip: '10.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\USER\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58518}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}
-Session ID: 63ea5d59d72acfc4dc9889e6c9265de0
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.90, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58565}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 71bf474609e702cc47a8e2bbee18ef4f
 *** Element info: {Using=css selector, value=#MessageLabel}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
@@ -243,67 +249,68 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search -->
-        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:eply.com.tests.SearchTest@6537cf78]" name="failedTest" is-config="true" duration-ms="322" started-at="2019-05-23T13:24:47Z" finished-at="2019-05-23T13:24:47Z">
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:eply.com.tests.SearchTest@4ba534b0]" name="failedTest" is-config="true" duration-ms="341" started-at="2019-06-18T21:12:27Z" finished-at="2019-06-18T21:12:27Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=search status=FAILURE method=SearchTest.search()[pri:0, instance:eply.com.tests.SearchTest@6537cf78] output={null}]]]>
+                <![CDATA[[TestResult name=search status=FAILURE method=SearchTest.search()[pri:0, instance:eply.com.tests.SearchTest@4ba534b0] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failedTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:eply.com.tests.SearchTest@6537cf78]" name="tearDown" is-config="true" duration-ms="642" started-at="2019-05-23T13:24:47Z" finished-at="2019-05-23T13:24:48Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:eply.com.tests.SearchTest@4ba534b0]" name="tearDown" is-config="true" duration-ms="612" started-at="2019-06-18T21:12:27Z" finished-at="2019-06-18T21:12:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- eply.com.tests.SearchTest -->
       <class name="eply.com.tests.ForgotPasswordTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:eply.com.tests.ForgotPasswordTest@617c74e5]" name="setup" is-config="true" duration-ms="3516" started-at="2019-05-23T13:24:00Z" finished-at="2019-05-23T13:24:03Z">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:eply.com.tests.ForgotPasswordTest@71ae31b0]" name="setup" is-config="true" duration-ms="3178" started-at="2019-06-18T21:11:39Z" finished-at="2019-06-18T21:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5a47730c]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setWaitForPage()[pri:0, instance:eply.com.tests.ForgotPasswordTest@617c74e5]" name="setWaitForPage" is-config="true" duration-ms="5" started-at="2019-05-23T13:24:03Z" finished-at="2019-05-23T13:24:03Z">
+        <test-method status="PASS" signature="setWaitForPage()[pri:0, instance:eply.com.tests.ForgotPasswordTest@71ae31b0]" name="setWaitForPage" is-config="true" duration-ms="2" started-at="2019-06-18T21:11:42Z" finished-at="2019-06-18T21:11:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setWaitForPage -->
-        <test-method status="FAIL" signature="forgotPassword()[pri:0, instance:eply.com.tests.ForgotPasswordTest@617c74e5]" name="forgotPassword" duration-ms="14709" started-at="2019-05-23T13:24:03Z" description="forgot Password displays Msg for wrong Email" finished-at="2019-05-23T13:24:18Z">
+        <test-method status="FAIL" signature="forgotPassword()[pri:0, instance:eply.com.tests.ForgotPasswordTest@71ae31b0]" name="forgotPassword" duration-ms="14202" started-at="2019-06-18T21:11:42Z" description="forgot Password displays Msg for wrong Email" finished-at="2019-06-18T21:11:56Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#ForgotPasswordPanelUsernameField"}
-  (Session info: chrome=74.0.3729.157)
-  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
+  (Session info: chrome=75.0.3770.90)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-QMHL70U', ip: '10.0.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+System info: host: 'DESKTOP-QMHL70U', ip: '10.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\USER\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58463}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}
-Session ID: 34422c33a0d364156d3b9edf927ac9ad
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.90, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58531}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f1edbdf3923088636743c4c235530f54
 *** Element info: {Using=css selector, value=#ForgotPasswordPanelUsernameField}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#ForgotPasswordPanelUsernameField"}
-  (Session info: chrome=74.0.3729.157)
-  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
+  (Session info: chrome=75.0.3770.90)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-QMHL70U', ip: '10.0.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+System info: host: 'DESKTOP-QMHL70U', ip: '10.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\USER\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58463}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}
-Session ID: 34422c33a0d364156d3b9edf927ac9ad
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.90, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58531}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f1edbdf3923088636743c4c235530f54
 *** Element info: {Using=css selector, value=#ForgotPasswordPanelUsernameField}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
@@ -313,7 +320,7 @@ at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy9.getAttribute(Unknown Source)
+at com.sun.proxy.$Proxy23.getAttribute(Unknown Source)
 at eply.com.pageobjects.BasePage.highlightElement(BasePage.java:133)
 at eply.com.pageobjects.BasePage.fillText(BasePage.java:32)
 at eply.com.pageobjects.ForgotPasswordPage.forgotPassword(ForgotPasswordPage.java:21)
@@ -353,67 +360,68 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forgotPassword -->
-        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:eply.com.tests.ForgotPasswordTest@617c74e5]" name="failedTest" is-config="true" duration-ms="481" started-at="2019-05-23T13:24:18Z" finished-at="2019-05-23T13:24:19Z">
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:eply.com.tests.ForgotPasswordTest@71ae31b0]" name="failedTest" is-config="true" duration-ms="343" started-at="2019-06-18T21:11:57Z" finished-at="2019-06-18T21:11:57Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=forgotPassword status=FAILURE method=ForgotPasswordTest.forgotPassword()[pri:0, instance:eply.com.tests.ForgotPasswordTest@617c74e5] output={null}]]]>
+                <![CDATA[[TestResult name=forgotPassword status=FAILURE method=ForgotPasswordTest.forgotPassword()[pri:0, instance:eply.com.tests.ForgotPasswordTest@71ae31b0] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failedTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:eply.com.tests.ForgotPasswordTest@617c74e5]" name="tearDown" is-config="true" duration-ms="769" started-at="2019-05-23T13:24:19Z" finished-at="2019-05-23T13:24:19Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:eply.com.tests.ForgotPasswordTest@71ae31b0]" name="tearDown" is-config="true" duration-ms="595" started-at="2019-06-18T21:11:57Z" finished-at="2019-06-18T21:11:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- eply.com.tests.ForgotPasswordTest -->
       <class name="eply.com.tests.FormsFilterTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:eply.com.tests.FormsFilterTest@2d3fcdbd]" name="setup" is-config="true" duration-ms="3298" started-at="2019-05-23T13:23:38Z" finished-at="2019-05-23T13:23:41Z">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:eply.com.tests.FormsFilterTest@73c60324]" name="setup" is-config="true" duration-ms="3196" started-at="2019-06-18T21:11:17Z" finished-at="2019-06-18T21:11:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5a47730c]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setWaitForPage()[pri:0, instance:eply.com.tests.FormsFilterTest@2d3fcdbd]" name="setWaitForPage" is-config="true" duration-ms="3" started-at="2019-05-23T13:23:41Z" finished-at="2019-05-23T13:23:41Z">
+        <test-method status="PASS" signature="setWaitForPage()[pri:0, instance:eply.com.tests.FormsFilterTest@73c60324]" name="setWaitForPage" is-config="true" duration-ms="4" started-at="2019-06-18T21:11:20Z" finished-at="2019-06-18T21:11:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setWaitForPage -->
-        <test-method status="FAIL" signature="formsPeriod()[pri:0, instance:eply.com.tests.FormsFilterTest@2d3fcdbd]" name="formsPeriod" duration-ms="10062" started-at="2019-05-23T13:23:41Z" description="select time Amount for events display and validate selection from element attribute" finished-at="2019-05-23T13:23:51Z">
+        <test-method status="FAIL" signature="formsPeriod()[pri:0, instance:eply.com.tests.FormsFilterTest@73c60324]" name="formsPeriod" duration-ms="10064" started-at="2019-06-18T21:11:20Z" description="select time Amount for events display and validate selection from element attribute" finished-at="2019-06-18T21:11:30Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#DateFilter"}
-  (Session info: chrome=74.0.3729.157)
-  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
+  (Session info: chrome=75.0.3770.90)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-QMHL70U', ip: '10.0.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+System info: host: 'DESKTOP-QMHL70U', ip: '10.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\USER\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58415}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}
-Session ID: 91545bf17ff7ffe7987a82178df60fd2
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.90, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58494}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f768f523db71872008e3465f4eae64ef
 *** Element info: {Using=css selector, value=#DateFilter}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#DateFilter"}
-  (Session info: chrome=74.0.3729.157)
-  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
+  (Session info: chrome=75.0.3770.90)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-QMHL70U', ip: '10.0.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+System info: host: 'DESKTOP-QMHL70U', ip: '10.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\USER\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58415}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}
-Session ID: 91545bf17ff7ffe7987a82178df60fd2
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.90, chrome: {chromedriverVersion: 75.0.3770.8 (681f24ea911fe7..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58494}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f768f523db71872008e3465f4eae64ef
 *** Element info: {Using=css selector, value=#DateFilter}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
@@ -423,9 +431,9 @@ at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy9.getTagName(Unknown Source)
+at com.sun.proxy.$Proxy23.getTagName(Unknown Source)
 at org.openqa.selenium.support.ui.Select.<init>(Select.java:45)
-at eply.com.pageobjects.MyFormsPage.dropDownSelection(MyFormsPage.java:50)
+at eply.com.pageobjects.MyFormsPage.dropDownSelection(MyFormsPage.java:53)
 at eply.com.tests.FormsFilterTest.formsPeriod(FormsFilterTest.java:27)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -462,37 +470,37 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- formsPeriod -->
-        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:eply.com.tests.FormsFilterTest@2d3fcdbd]" name="failedTest" is-config="true" duration-ms="349" started-at="2019-05-23T13:23:51Z" finished-at="2019-05-23T13:23:52Z">
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:eply.com.tests.FormsFilterTest@73c60324]" name="failedTest" is-config="true" duration-ms="321" started-at="2019-06-18T21:11:30Z" finished-at="2019-06-18T21:11:31Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=formsPeriod status=FAILURE method=FormsFilterTest.formsPeriod()[pri:0, instance:eply.com.tests.FormsFilterTest@2d3fcdbd] output={null}]]]>
+                <![CDATA[[TestResult name=formsPeriod status=FAILURE method=FormsFilterTest.formsPeriod()[pri:0, instance:eply.com.tests.FormsFilterTest@73c60324] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failedTest -->
-        <test-method status="PASS" signature="setWaitForPage()[pri:0, instance:eply.com.tests.FormsFilterTest@2d3fcdbd]" name="setWaitForPage" is-config="true" duration-ms="4" started-at="2019-05-23T13:23:52Z" finished-at="2019-05-23T13:23:52Z">
+        <test-method status="PASS" signature="setWaitForPage()[pri:0, instance:eply.com.tests.FormsFilterTest@73c60324]" name="setWaitForPage" is-config="true" duration-ms="2" started-at="2019-06-18T21:11:31Z" finished-at="2019-06-18T21:11:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setWaitForPage -->
-        <test-method status="PASS" signature="login()[pri:0, instance:eply.com.tests.FormsFilterTest@2d3fcdbd]" name="login" duration-ms="7736" started-at="2019-05-23T13:23:52Z" description="Login" finished-at="2019-05-23T13:23:59Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:eply.com.tests.FormsFilterTest@73c60324]" name="login" duration-ms="7940" started-at="2019-06-18T21:11:31Z" description="Login" finished-at="2019-06-18T21:11:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:eply.com.tests.FormsFilterTest@2d3fcdbd]" name="failedTest" is-config="true" duration-ms="0" started-at="2019-05-23T13:23:59Z" finished-at="2019-05-23T13:23:59Z">
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:eply.com.tests.FormsFilterTest@73c60324]" name="failedTest" is-config="true" duration-ms="1" started-at="2019-06-18T21:11:38Z" finished-at="2019-06-18T21:11:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=login status=SUCCESS method=FormsFilterTest.login()[pri:0, instance:eply.com.tests.FormsFilterTest@2d3fcdbd] output={null}]]]>
+                <![CDATA[[TestResult name=login status=SUCCESS method=FormsFilterTest.login()[pri:0, instance:eply.com.tests.FormsFilterTest@73c60324] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failedTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:eply.com.tests.FormsFilterTest@2d3fcdbd]" name="tearDown" is-config="true" duration-ms="654" started-at="2019-05-23T13:23:59Z" finished-at="2019-05-23T13:24:00Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:eply.com.tests.FormsFilterTest@73c60324]" name="tearDown" is-config="true" duration-ms="602" started-at="2019-06-18T21:11:38Z" finished-at="2019-06-18T21:11:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
