@@ -24,7 +24,7 @@ public class BaseTest {
 	@BeforeClass
 	public void setup(ITestContext testContext) {
 	//	System.setProperty("webdriver.chrome.driver", "C:\\Users\\user\\Desktop\\��������\\Selenium\\Automation\\chromedriver.exe");
-		driver = new ChromeDriver();
+		driver = new FirefoxDriver();
 		 testContext.setAttribute("WebDriver", this.driver);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
